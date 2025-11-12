@@ -1,0 +1,110 @@
+/* ===== Общие стили ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Шапка сайта ===== */
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* ===== Навигация ===== */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* ===== Основная часть ===== */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== Заголовки ===== */
+h2, h3 {
+  color: #222;
+  border-left: 4px solid #ffcc00;
+  padding-left: 10px;
+}
+
+/* ===== Список фигур ===== */
+.figures-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.figures-list li {
+  margin: 5px 0;
+}
+
+.figures-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.figures-list a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Ссылки ===== */
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+/* ===== Подвал ===== */
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* ===== Плавная прокрутка ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* === Оформление изображений === */
+img {
+  width: 200px;       /* чтобы не выходило за пределы блока */
+  height: auto;          /* сохраняет пропорции */
+  display: block;        /* центрирует через margin */
+  margin: 15px auto;     /* отступы сверху и снизу */
+  border-radius: 10px;   /* скруглённые углы */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* лёгкая тень */
+}
+

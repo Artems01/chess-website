@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Основные правила игры в шахматы.">
+  <title>Правила шахмат</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Скрипт 1 — изменение цвета фона
+    function changeBackground(color) {
+      document.body.style.backgroundColor = color;
+    }
+
+    // Скрипт 2 — автоматическая прокрутка через 5 секунд
+    window.onload = function() {
+      setTimeout(() => window.scrollBy(0, 300), 5000);
+    };
+
+    // Скрипт 3 — текущая дата в pop-up
+    function showDate() {
+      alert("Сегодня: " + new Date().toLocaleDateString());
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Правила игры</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="history.html">История</a>
+      <a href="rules.html">Правила</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="start">Основные фигуры</h2>
+    <ul>
+      <li><a href="#queen">Ферзь</a></li>
+      <li><a href="#rook">Ладья</a></li>
+      <li><a href="#bishop">Слон</a></li>
+      <li><a href="#knight">Конь</a></li>
+      <li><a href="#pawn">Пешка</a></li>
+    </ul>
+
+    <section id="queen">
+      <h3>Ферзь</h3>
+      <img src="images/queen.jpg" alt="Ферзь" width="80">
+      <p>Ферзь может двигаться по вертикали, горизонтали и диагонали на любое расстояние.</p>
+    </section>
+
+    <section id="rook">
+      <h3>Ладья</h3>
+      <img src="images/rook.png" alt="Ладья" width="80">
+      <p>Ладья движется по прямым линиям — вертикалям и горизонталям.</p>
+    </section>
+
+    <section id="bishop">
+      <h3>Слон</h3>
+      <img src="images/bishop.png" alt="Слон" width="80">
+      <p>Слон ходит только по диагонали.</p>
+    </section>
+
+    <section id="knight">
+      <h3>Конь</h3>
+      <img src="images/knight.png" alt="Конь" width="80">
+      <p>Конь ходит буквой "Г": на две клетки по одной оси и на одну по другой. 
+         Он единственная фигура, которая может перепрыгивать через другие.</p>
+    </section>
+
+    <section id="pawn">
+      <h3>Пешка</h3>
+      <img src="images/pawn.jpg" alt="Пешка" width="80">
+      <p>Пешка ходит на одну клетку вперёд, а бьёт по диагонали. 
+         На первом ходе может пойти на две клетки.</p>
+    </section>
+
+    <p><a href="#start">К началу страницы</a></p>
+
+    <p>Подробнее можно узнать в 
+      <a href="https://ru.wikipedia.org/wiki/Шахматы" target="_blank">Википедии</a>.
+    </p>
+
+    <button onclick="showDate()">Показать дату</button>
+    <button onclick="changeBackground('lightyellow')">Жёлтый фон</button>
+    <button onclick="changeBackground('lightblue')">Голубой фон</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Мир шахмат</p>
+  </footer>
+</body>
+</html>
