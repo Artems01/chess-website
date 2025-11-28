@@ -1,4 +1,4 @@
-/* ===== Общие стили ===== */
+/ Общие стили /
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,7 +8,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== Шапка сайта ===== */
+/Шапка сайта/
 header {
   background-color: #222;
   color: white;
@@ -21,7 +21,7 @@ header h1 {
   font-size: 28px;
 }
 
-/* ===== Навигация ===== */
+/ Навигация /
 nav {
   margin-top: 10px;
 }
@@ -38,7 +38,7 @@ nav a:hover {
   color: #ffcc00;
 }
 
-/* ===== Основная часть ===== */
+/ Основная часть /
 main {
   max-width: 800px;
   margin: 30px auto;
@@ -48,14 +48,14 @@ main {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* ===== Заголовки ===== */
+/Заголовки /
 h2, h3 {
   color: #222;
   border-left: 4px solid #ffcc00;
   padding-left: 10px;
 }
 
-/* ===== Список фигур ===== */
+/ Список фигур /
 .figures-list {
   list-style: none;
   padding-left: 0;
@@ -74,7 +74,7 @@ h2, h3 {
   text-decoration: underline;
 }
 
-/* ===== Ссылки ===== */
+/ Ссылки /
 a {
   color: #0066cc;
 }
@@ -83,7 +83,7 @@ a:hover {
   color: #ff6600;
 }
 
-/* ===== Подвал ===== */
+/ Подвал /
 footer {
   text-align: center;
   background: #222;
@@ -93,12 +93,12 @@ footer {
   font-size: 14px;
 }
 
-/* ===== Плавная прокрутка ===== */
+/ Плавная прокрутка/
 html {
   scroll-behavior: smooth;
 }
 
-/* === Оформление изображений === */
+/ Оформление изображений /
 img {
   width: 200px;       /* чтобы не выходило за пределы блока */
   height: auto;          /* сохраняет пропорции */
@@ -114,5 +114,6 @@ img {
     display: block;
     margin: 10px auto;
 }
+
 
 
